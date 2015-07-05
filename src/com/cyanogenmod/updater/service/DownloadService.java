@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.service;
+package com.projectx.updater.service;
 
 import android.app.DownloadManager;
 import android.app.IntentService;
@@ -25,13 +25,13 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.UpdateApplication;
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.misc.UpdateInfo;
-import com.cyanogenmod.updater.receiver.DownloadReceiver;
-import com.cyanogenmod.updater.requests.UpdatesJsonObjectRequest;
-import com.cyanogenmod.updater.utils.Utils;
+import com.projectx.updater.R;
+import com.projectx.updater.UpdateApplication;
+import com.projectx.updater.misc.Constants;
+import com.projectx.updater.misc.UpdateInfo;
+import com.projectx.updater.receiver.DownloadReceiver;
+import com.projectx.updater.requests.UpdatesJsonObjectRequest;
+import com.projectx.updater.utils.Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -86,7 +86,7 @@ public class DownloadService extends IntentService
     }
 
     private String getServerUri() {
-        String propertyUri = SystemProperties.get("cm.updater.uri");
+        String propertyUri = SystemProperties.get("px.updater.uri");
         if (!TextUtils.isEmpty(propertyUri)) {
             return propertyUri;
         }

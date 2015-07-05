@@ -38,7 +38,7 @@ LOCAL_RESOURCE_DIR := \
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay --extra-packages android.support.v17.leanback
 
-LOCAL_PACKAGE_NAME := CMUpdater
+LOCAL_PACKAGE_NAME := PXUpdater
 
 LOCAL_PROGUARD_FLAGS := -include $(LOCAL_PATH)/proguard.flags
 
