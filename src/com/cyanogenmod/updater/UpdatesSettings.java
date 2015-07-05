@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater;
+package com.projectx.updater;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -45,13 +45,13 @@ import android.widget.Toast;
 
 import com.android.internal.util.cm.ScreenType;
 
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.misc.State;
-import com.cyanogenmod.updater.misc.UpdateInfo;
-import com.cyanogenmod.updater.receiver.DownloadReceiver;
-import com.cyanogenmod.updater.service.UpdateCheckService;
-import com.cyanogenmod.updater.utils.UpdateFilter;
-import com.cyanogenmod.updater.utils.Utils;
+import com.projectx.updater.misc.Constants;
+import com.projectx.updater.misc.State;
+import com.projectx.updater.misc.UpdateInfo;
+import com.projectx.updater.receiver.DownloadReceiver;
+import com.projectx.updater.service.UpdateCheckService;
+import com.projectx.updater.utils.UpdateFilter;
+import com.projectx.updater.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;

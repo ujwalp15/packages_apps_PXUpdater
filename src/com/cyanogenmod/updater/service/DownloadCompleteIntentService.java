@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.service;
+package com.projectx.updater.service;
 
 import android.app.DownloadManager;
 import android.app.IntentService;
@@ -15,12 +15,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.UpdateApplication;
-import com.cyanogenmod.updater.UpdatesSettings;
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.receiver.DownloadNotifier;
-import com.cyanogenmod.updater.utils.MD5;
+import com.projectx.updater.R;
+import com.projectx.updater.UpdateApplication;
+import com.projectx.updater.UpdatesSettings;
+import com.projectx.updater.misc.Constants;
+import com.projectx.updater.receiver.DownloadNotifier;
+import com.projectx.updater.utils.MD5;
 
 import java.io.File;
 

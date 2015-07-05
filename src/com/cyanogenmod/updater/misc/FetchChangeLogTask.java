@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.misc;
+package com.projectx.updater.misc;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -26,11 +26,11 @@ import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 
 import com.android.volley.toolbox.RequestFuture;
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.NotifyingWebView;
-import com.cyanogenmod.updater.UpdateApplication;
-import com.cyanogenmod.updater.requests.ChangeLogRequest;
-import com.cyanogenmod.updater.utils.Utils;
+import com.projectx.updater.R;
+import com.projectx.updater.NotifyingWebView;
+import com.projectx.updater.UpdateApplication;
+import com.projectx.updater.requests.ChangeLogRequest;
+import com.projectx.updater.utils.Utils;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

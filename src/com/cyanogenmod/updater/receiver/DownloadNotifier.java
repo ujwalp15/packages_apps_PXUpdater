@@ -7,15 +7,15 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.receiver;
+package com.projectx.updater.receiver;
 
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.misc.UpdateInfo;
+import com.projectx.updater.R;
+import com.projectx.updater.misc.UpdateInfo;
 import java.io.File;
 
 public class DownloadNotifier {
