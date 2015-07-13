@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.projectx.requests;
+package com.projectx.updater.requests;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.Response;
